@@ -2,7 +2,7 @@
 # where n is the number of competitions and k is the number of teams
 def tournamentWinner(competitions, results):
     # Initialize the current best team and the scores dictionary
-    currentBestTea = ""
+    currentBestTeam = ""
     scores = {currentBestTeam: 0}
 
     # Iterate through each competition and its result

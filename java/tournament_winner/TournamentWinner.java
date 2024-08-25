@@ -8,9 +8,9 @@ public class TournamentWinner {
 
 
 	// O(n) time | O(k) space;
-	// where n is the length of arrayOne and m is the length of arrayTwo
+	// where n is the number of competitions and k is the number of teams
 	public static String tournamentWinner(ArrayList<ArrayList<String>> competitions, ArrayList<Integer> results) {
-        // Initialize the current best team with an empty string and create a map to keep track of team scores
+        // Initialize the current best team with an empty string and create a map to keep track of the team scores
         String currentBestTeam = "";
         Map<String, Integer> scores = new HashMap<>();
         // Set the initial score of the current best team (empty string) to 0
