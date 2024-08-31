@@ -1,4 +1,4 @@
-# Average: O(n^2) time | O(n^2) space
+# Average: O(n^2) time | O(n^2) space;
 # Worst: O(n^3) time | O(n^2) space;
 # where n is the length of the array
 def fourNumberSum(array, targetSum):
