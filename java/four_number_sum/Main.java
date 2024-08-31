@@ -2,8 +2,9 @@ package main.java.com.example.fournumbersum;
 
 import java.util.List;
 
-// Average: O(t*n^2) time | O(n^2) space
-// Worst: O(t*n^3) time | O(t*n^2) space
+// Average: O(t*n^2) time | O(n^2) space;
+// Worst: O(t*n^3) time | O(t*n^2) space;
+// where t is the number of test cases and n is the length of the array
 public class Main {
 
     public static void main(String[] args) {

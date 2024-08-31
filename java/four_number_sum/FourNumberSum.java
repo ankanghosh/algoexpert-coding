@@ -7,6 +7,7 @@ import java.util.HashMap;
 
 // Average: O(n^2) time | O(n^2) space
 // Worst: O(n^3) time | O(n^2) space
+// where n is the length of the array
 public class FourNumberSum {
 
 	public static List<Integer[]> fourNumberSum(int[] array, int targetSum) {

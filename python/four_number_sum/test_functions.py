@@ -1,5 +1,6 @@
 # Average: O(t*n^2) time | O(n^2) space
 # Worst: O(t*n^3) time | O(t*n^2) space
+# where t is the number of test cases and n is the length of the array
 from four_number_sum import fourNumberSum
 
 def run_tests():
