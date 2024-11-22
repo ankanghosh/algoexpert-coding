@@ -1,6 +1,6 @@
 from array_of_products import arrayOfProducts
 
-# Function to test the arrayOfProducts function with various cases
+# Function to test the arrayOfProducts function with various cases.
 # O(t * n) time | O(t * n) space;
 # where t is the number of test cases and n is the length of the input array
 def run_tests():
@@ -28,6 +28,6 @@ def run_tests():
         result = arrayOfProducts(array)
         print(f"Test case {i + 1}: array = {array} -> Result: {result}")
 
-# Execute the test cases if this script is run directly
+# Execute the test cases if this script is run directly.
 if __name__ == "__main__":
     run_tests()
