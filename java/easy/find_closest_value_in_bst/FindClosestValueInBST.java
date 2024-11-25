@@ -1,7 +1,7 @@
 package main.java.com.example.findclosestvalueinbst;
 
 public class FindClosestValueInBST {
-	// Average: O(log(n)) time | O(1) space, where n is the number of nodes in the Binary Search Tree (BST).
+	// Average: O(log(n)) time | O(1) space, where n is the number of nodes in the Binary Search Tree (BST)
 	// Worst: O(n) time | O(1) space, where n is the number of nodes in the BST
 	// Function to find the closest value to the target in a BST.
 	public static int findClosestValueInBst(BST tree, int target) {

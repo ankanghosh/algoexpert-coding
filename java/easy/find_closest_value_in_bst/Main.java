@@ -1,7 +1,7 @@
 package main.java.com.example.findclosestvalueinbst;
 
 public class Main {
-	// O(n) time | O(n) space, where n is the number of nodes in the Binary Search Tree (BST).
+	// O(n) time | O(n) space, where n is the number of nodes in the Binary Search Tree (BST)
 	// Main function to create a sample BST and find the closest value.
 	public static void main(String[] args) {
 		// Construct a sample BST.
