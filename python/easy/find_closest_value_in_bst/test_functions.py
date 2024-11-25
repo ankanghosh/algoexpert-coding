@@ -3,7 +3,8 @@ from find_closest_value_in_bst import findClosestValueInBst
 
 # Main function to create a sample BST and find the closest value.
 # O(n) time | O(n) space, where n is the number of nodes in the Binary Search Tree (BST).
-def main():
+# Function to create a sample BST and find the closest value.
+def run_tests():
     # Construct a sample BST.
     root = BST(10)
     root.left = BST(5)
@@ -26,4 +27,4 @@ def main():
 
 # Run the main function to test.
 if __name__ == "__main__":
-    main()
+    run_tests()
