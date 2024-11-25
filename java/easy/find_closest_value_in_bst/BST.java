@@ -1,6 +1,6 @@
 package main.java.com.example.findclosestvalueinbst;
 
-//Class to represent nodes in the Binary Search Tree (BST).
+// Class to represent nodes in the Binary Search Tree (BST).
 public class BST {
 	public int value;
 	public BST left;
