@@ -24,6 +24,6 @@ def run_tests():
     # Output the result.
     print(f"Closest value to {target} is: {closest}")
 
-# Run the run_tests function to test.
+# Execute the test case if this script is run directly.
 if __name__ == "__main__":
     run_tests()
