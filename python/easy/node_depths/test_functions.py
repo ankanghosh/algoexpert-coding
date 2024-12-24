@@ -5,7 +5,7 @@ from binary_tree import BinaryTree
 # Average case - When the tree is balanced: O(n) time | O(h) space, where n is
 # the number of nodes in the Binary Tree and h is the height of the Binary Tree
 def run_tests():
-    # Construct a sample binary tree.
+    # Construct a sample Binary Tree.
     root = BinaryTree(1)
     root.left = BinaryTree(2)
     root.right = BinaryTree(3)

@@ -5,7 +5,7 @@ public class Main {
 	// Average case - When the tree is balanced: O(n) time | O(h) space, where n is
 	// the number of nodes in the Binary Tree and h is the height of the Binary Tree
 	public static void main(String[] args) {
-		// Construct a sample binary tree.
+		// Construct a sample Binary Tree.
 		BinaryTree root = new BinaryTree(1);
 		root.left = new BinaryTree(2);
 		root.right = new BinaryTree(3);
