@@ -28,7 +28,7 @@ import java.util.HashSet;
 
 // Solution 2.
 public class FirstDuplicateValue {
-	// O(n) time | O(n) space, where n is the length of the input array
+	// O(n) time | O(1) space, where n is the length of the input array
     public static int firstDuplicateValue(int[] array) {
         // Iterate through the array.
         for (int value : array) {
