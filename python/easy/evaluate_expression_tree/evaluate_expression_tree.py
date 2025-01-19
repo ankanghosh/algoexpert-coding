@@ -18,5 +18,5 @@ def evaluateExpressionTree(tree):
     elif tree.value == -3:  # Division (rounded towards zero).
         return int(leftValue / rightValue)
 
-    # Multiplication (only remaining case).
+    # Multiplication (the only remaining case corresponds to when the value of the current node is "-4").
     return leftValue * rightValue
