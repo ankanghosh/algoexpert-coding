@@ -3,7 +3,7 @@ package main.java.com.example.mergeoverlappingintervals;
 import java.util.Arrays;
 
 public class Main {
-	// Main function to validate the functionality of the mergeOverlappingIntervals() method.
+	// Main method to validate the functionality of the mergeOverlappingIntervals() method.
 	// O(t * nlog(n)) time | O(t * n) space;
 	// where t is the number of test cases and n is the length of the input array
 	public static void main(String[] args) {
