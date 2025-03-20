@@ -1,6 +1,7 @@
 package main.java.com.example.minimumwaitingtime;
 
 import java.util.Arrays;
+
 public class MinimumWaitingTime {
 	// Function to find the minimum waiting time for all of the queries in an array.
 	// O(nlog(n)) time | O(1) space, where n is the total number of queries
